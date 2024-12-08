@@ -1,0 +1,123 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  color: #f4f4f4;
+}
+
+h1, h2, h3 {
+  color: #f4f4f4;
+  margin-bottom: 10px;
+}
+
+/* Header Section */
+header {
+  background-color: #111;
+  color: #f4f4f4;
+  padding: 20px 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none; /* Remove bullets */
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #f4f4f4;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+}
+
+header nav ul li a:hover {
+  color: #ffcc00; /* Golden hover color */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+
+/* Resume Section */
+#resume {
+  padding: 50px 20px;
+  background-color: #222;
+  text-align: center;
+}
+
+#resume h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #ffcc00; /* Golden color for heading */
+}
+
+#resume p {
+  font-size: 1.2em;
+  color: #ddd; /* Light grey text for description */
+  margin-bottom: 30px;
+}
+
+#resume a {
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #2d9cdb; /* Teal Button */
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: background 0.3s, transform 0.3s;
+}
+
+#resume a:hover {
+  background-color: #ffcc00; /* Golden hover color */
+  transform: scale(1.05); /* Subtle hover effect */
+}
+
+/* Resume Content (Additional Section Styling) */
+.resume-content {
+  max-width: 900px;
+  margin: 30px auto;
+  text-align: left;
+}
+
+.resume-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #ffcc00; /* Golden color for section titles */
+}
+
+.resume-content p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.resume-content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.resume-content ul li {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 1.1em;
+}
